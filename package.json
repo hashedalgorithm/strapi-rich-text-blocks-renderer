@@ -1,0 +1,40 @@
+{
+  "name": "strapi-rich-text-block-renderer",
+  "version": "1.0.0",
+  "description": "This Package has Strapi Rich Text (Blocks) Renderers",
+  "main": "index.ts",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashedalgorithm/strapi-rich-text-blocks-renderer.git"
+  },
+  "keywords": [
+    "strapi",
+    "richtext",
+    "richtextblocks",
+    "json",
+    "blocks",
+    "renderer"
+  ],
+  "author": "Sanjay Kumar Kumaravelan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hashedalgorithm/strapi-rich-text-blocks-renderer/issues"
+  },
+  "homepage": "https://github.com/hashedalgorithm/strapi-rich-text-blocks-renderer#readme",
+  "dependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
