@@ -1,0 +1,27 @@
+.unknown {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.unknown_text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.unknown_text {
+  font-size: 1.25rem;
+}
+
+.icon {
+  color: var(--destructive);
+}
+
+.card {
+  border: 1px solid var(--border);
+  background-color: var(--accent);
+  color: var(--foreground);
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+}

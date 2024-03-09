@@ -1,0 +1,27 @@
+.quoteblock {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  border: none;
+  border-radius: 0.5rem;
+  max-height: fit-content;
+  background-color: var(--accent);
+}
+
+.quoteblock_strip {
+  height: auto;
+  width: 1px;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 0.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.quoteblock_content {
+  color: var(--foreground);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-style: italic;
+}
